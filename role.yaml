@@ -1,0 +1,6 @@
+---
+- hosts: xyz
+  user: root
+  roles:
+   - packages
+   - http

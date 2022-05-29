@@ -1,0 +1,9 @@
+---
+- name:  "install samba"
+  hosts: xyz
+  remote_user: root
+  tasks:
+  - name: "Ensure package is latest"
+    ansible.builtin.yum:
+      name: samba
+      state: present 
